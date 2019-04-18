@@ -8,9 +8,9 @@ const Card4 = () => {
             <MDBCard>
             <MDBCardImage className="img-fluid" src={image} alt=""  waves />
                 <MDBCardBody>
-                    <MDBCardTitle>Card title</MDBCardTitle>
-                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-                    <MDBBtn href="#">Click</MDBBtn>
+                    <MDBCardTitle>Video Analysis</MDBCardTitle>
+                    <MDBCardText>Coming Soon..Video is a powerful coaching asset. Identify the key coachable moments that will help your athlete improve.</MDBCardText>
+                    <MDBBtn href="/risingvideo" color="primary">More About Video</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
         </MDBCol>

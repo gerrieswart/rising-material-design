@@ -14,7 +14,7 @@ const Intro = ({ children }) => {
                     <MDBAnimation type="fadeInRight">
                     <h2 className="subtext-header h1-responsive mt-2 mb-4 text-uppercase orange-text">Amazing Platform</h2>
                     <div className="w-100">
-                    <p className="d-flex justify-content-center">We use Artificial Intelligence to intelligently match athletes, from kids to budding stars, with the perfect private coach for them. No matter your skill level our platform will find a coach that fits your needs. Simply sign up and get matched!
+                    <p className="w-responsive text-center mx-auto p-3 mt-2">We use Artificial Intelligence to intelligently match athletes, from kids to budding stars, with the perfect private coach for them. No matter your skill level our platform will find a coach that fits your needs. Simply sign up and get matched!
 </p>
                     </div>
                     <div className="w-100 my-4"></div>

@@ -10,6 +10,7 @@ import Card3 from '../components/card3'
 import Card4 from '../components/card4'
 import { MDBRow } from 'mdbreact'
 
+
 class App extends Component {
   render() {
     return (
@@ -20,10 +21,13 @@ class App extends Component {
         <Intro />
         <main>
           <AboutSection />
-          <section id="cardSection">
-            <h2 className="h1-responsive text-center font-weight-bold mb-5">
-            Coach Anytime, Anywhere
+          <section id="cardSection" >
+            <h2 className="h1-responsive text-center font-weight-bold mb-5 text-white">
+            Advanced Features That You Will Surely Love
             </h2>
+            <p className="text-white w-responsive text-center mx-auto p-3 mt-2">
+              We are currently running our Beta program and inviting Coaches and Athletes to join for free. The Rising Advantage will involve Intelligent Matchmaking, Video Analysis, Virtual Training, and more.
+            </p>
             <MDBRow className="m-0" center>
               <Card1 />
               <Card2 />

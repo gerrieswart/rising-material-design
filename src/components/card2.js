@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
-import image from "../images/mockup.webp"
+import image from "../images/blog1.jpeg"
 
 const Card2 = () => {
     return (
@@ -8,9 +8,9 @@ const Card2 = () => {
             <MDBCard>
             <MDBCardImage className="img-fluid" src={image} alt=""  waves />
                 <MDBCardBody>
-                    <MDBCardTitle>Card title</MDBCardTitle>
-                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-                    <MDBBtn href="#">Click</MDBBtn>
+                    <MDBCardTitle>Uprising</MDBCardTitle>
+                    <MDBCardText>It's Time To Step Up Your Game - Our Uprising blog has tryout tips, success stories, nutritional information.</MDBCardText>
+                    <MDBBtn href="/uprising" color="primary">Go to our Blog</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
         </MDBCol>

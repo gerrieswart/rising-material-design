@@ -13,17 +13,17 @@ const Footer = () => {
                     </MDBCol>
                     <MDBCol md="2" className="b-3">
                         <h6 className="title font-weight-bold">
-                            <a href="#!">Products</a>
+                            <a href="#!">Athletes</a>
                         </h6>
                     </MDBCol>
                     <MDBCol md="2" className="b-3">
                         <h6 className="title font-weight-bold">
-                            <a href="#!">Awards</a>
+                            <a href="#!">Coaches</a>
                         </h6>
                     </MDBCol>
                     <MDBCol md="2" className="b-3">
                         <h6 className="title font-weight-bold">
-                            <a href="#!">Help</a>
+                            <a href="#!">Join as a Coach</a>
                         </h6>
                     </MDBCol>
                     <MDBCol md="2" className="b-3">
@@ -35,13 +35,9 @@ const Footer = () => {
                 <hr className="rgba-white-light" style={{ margin: "0 15%" }} />
                 <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
                     <MDBCol md="8" sm="12" className="mt-5">
+                        <h2>Let's Stay In Touch</h2>
                         <p style={{ lineHeight: "1.7rem" }}>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                            quae ab illo inventore veritatis et quasi architecto beatae
-                            vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur.
+                        Subscribe for updates, special offers and more.
             </p>
                     </MDBCol>
                 </MDBRow>
@@ -51,10 +47,9 @@ const Footer = () => {
                         <div className="mb-5 flex-center">
                             <MDBIcon fab icon="facebook-f" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                             <MDBIcon fab icon="twitter" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
-                            <MDBIcon fab icon="google-plus-g" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                             <MDBIcon fab icon="linkedin-in" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
                             <MDBIcon fab icon="instagram" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
-                            <MDBIcon fab icon="pinterest" size="lg" className="mx-2 white-text mr-md-4"></MDBIcon>
+
                         </div>
                     </MDBCol>
                 </MDBRow>
@@ -62,7 +57,7 @@ const Footer = () => {
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
                     &copy; {new Date().getFullYear()} Copyright:
-                <a href="https://www.MDBootstrap.com" alt=""> MDBootstrap.com </a>
+                <a href="https://www.MDBootstrap.com" alt=""> Rising Sports Tech Division </a>
                 </MDBContainer>
             </div>
         </MDBFooter>
