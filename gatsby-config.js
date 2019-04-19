@@ -1,3 +1,7 @@
+const queries = require('./src/utils/algolia')
+
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: 'Rising | Helping you find the perfect coach',
@@ -12,6 +16,16 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-plugin-algolia`,
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries,
+        chunkSize: 10000, // default: 1000
       },
     },
     `gatsby-transformer-sharp`,
